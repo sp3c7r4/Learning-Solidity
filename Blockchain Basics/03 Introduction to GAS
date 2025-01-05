@@ -1,0 +1,20 @@
+# Transaction Fee
+This is the amount paid to the block producer for processing the transaction
+Transaction Fee = Gas Price * Gas Used
+
+# Gas Price
+The cost per unit of gas specified for the transaction, in Ether and Gwei. The higher the gas price the higher chance of getting included in a block.
+
+# How do blockchains work
+https://andersbrownworth.com/blockchain/
+
+## Hash: A unique fixed length string, meant to identify a piece of data. They are created by placing said data into a `hash function`
+## Hash Algorithm: This is a function that comutes data into a unique hash
+## Mining: This is the process of finding the solution to the blockchain problem [E.g the "problem" was to find a hash that starts with four zeros ]
+Nodes get paid for mining blocks
+
+Block: A list of transactions mined together
+Genesis Block: The first block in a blockchain [ The previous has points to a hash that never exists ]
+
+## Decentralized: Have no single point of authority [ In the blockchain world majority rules ]
+## Nonce: A number used once to find the solution to the blockchain problem [ This is mainly used to define the transaction number for an account/address ]
